@@ -17,5 +17,10 @@
         "psr-4" : {
             "Vinexel\\" : "core/"
         }
+    },
+
+    "require": {
+        "php": "^8.0",
+        "twig/twig": "^3.19"
     }
 }
