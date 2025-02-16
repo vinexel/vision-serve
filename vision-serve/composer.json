@@ -1,0 +1,21 @@
+{
+    "name": "vinexel/vision-serve",
+    "description": "Core of Vinexel Framework",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+
+    "authors": [
+        {
+            "name": "Elwira Perdana"
+        }
+    ],
+
+    "autoload": {
+        "psr-4" : {
+            "Vinexel\\" : "core/"
+        }
+    }
+}
