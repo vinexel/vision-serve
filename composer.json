@@ -1,0 +1,36 @@
+{
+    "name": "vinexel/vision-serve",
+    "description": "Core of Vinexel Framework - v1.x",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+
+    "support": {
+        "email": "info@visioniconic.com",
+        "source": "https://github.com/vinexel/vinexel",
+        "docs": "https://vinexel.com/docs"
+    },
+
+    "authors": [
+        {
+            "name": "Elwira Perdana",
+            "email": "elwira@visioniconic.com",
+            "homepage": "https://github.com/vinexel/",
+            "role": "Lead Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4" : {
+            "Vinexel\\" : "core/"
+        }
+    },
+
+    "require": {
+        "php": "^8.3",
+        "twig/twig": "^3.19",
+        "guzzlehttp/guzzle": "*",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
